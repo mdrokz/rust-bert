@@ -64,7 +64,7 @@ impl NLLBMergeResources {
 impl NLLBSpecialMap {
     pub const NLLB_600M_DISTILLED: (&'static str, &'static str) = (
         "nllb200-distilled-600m/special",
-        "htps://huggingface.co/facebook/nllb-200-distilled-600M/raw/main/special_tokens_map.json",
+        "https://huggingface.co/facebook/nllb-200-distilled-600M/raw/main/special_tokens_map.json",
     );
 
     pub const NLLB_1_3B: (&'static str, &'static str) = (
